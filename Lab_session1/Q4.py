@@ -1,5 +1,5 @@
 word = input("Enter the word: ")
-
+# Function to count occurrences of each character in a word
 def Word_OCC(word):
     dict = {}
     for i in word:
@@ -8,7 +8,7 @@ def Word_OCC(word):
         else:
             dict[i] = 1
     return dict
-
+# Function to find the character with the maximum count
 def MaxWord(dict):
     maxVal = 0
     maxKey = None
